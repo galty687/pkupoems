@@ -20,7 +20,7 @@ product_intro='''
 Welcome to our platform, where you can explore the beauty of classical Chinese poetry through a variety of translation styles. \n 
 Delve into the rich world of these timeless verses and experience their meaning and elegance in different linguistic interpretations. \n 
 Whether you're a connoisseur of poetry or new to the realm of Chinese literary classics, our platform offers a unique window into the artistry of words. \n 
-We are also testing a new method to translate the Chinese poems. Please leave us your feedback after appreiciating those peoms.
+We are currently exploring a novel approach to translate Chinese poems. We warmly invite you to share your feedback after experiencing these poems. Your insights are invaluable to us in refining this method.
 '''
 st.sidebar.image("pkulogo.png", width=100)
 st.sidebar.title("Project Introduction")
@@ -204,7 +204,7 @@ with st.form("evaluation_form"):
     mother_tounge =  st.selectbox("Your First Language", ["Please select"] + languages + ["Other"])
     if mother_tounge == "Other":
         other_language = st.text_input("Please enter your language")
-    email = st.text_input("Email")
+    email = st.text_input("Email (Optional)")
 
     # Collecting ratings for each poem
     for i, poem in enumerate(poems):
@@ -218,7 +218,7 @@ with st.form("evaluation_form"):
     # Submit button
     submitted = st.form_submit_button("Submit Review")
     if submitted and mother_tounge and email:
-        st.write("Thank you for your review!")
+        st.write("Your submitted information is as follows:")
         st.write(f"Your selected language is: {mother_tounge}")
         if mother_tounge == "Other":
             st.write(f"Your manually entered language is: {other_language}")
@@ -234,4 +234,5 @@ with st.form("evaluation_form"):
         }
 
     # 插入数据到 MongoDB Atlas
-        collection.insert_one(feedback_data)    
+        collection.insert_one(feedback_data)   
+        st.success("Thank you for your feedback!")    
