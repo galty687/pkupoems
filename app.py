@@ -235,4 +235,4 @@ with st.form("evaluation_form"):
 
     # 插入数据到 MongoDB Atlas
         collection.insert_one(feedback_data)   
-        st.success("Thank you for your feedback!")    
+        st.success("Sucess. Thank you for your feedback!")    
