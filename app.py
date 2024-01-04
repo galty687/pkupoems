@@ -68,23 +68,23 @@ with st.container():
         lines = [
             {
                 "pinyin": "yōu xún bù zhī pí, yì xíng dù yáo mò.",
-                "text": "幽寻 不知 疲，意行 度 遥陌。",
-                "translation": "Quiet search, unaware of fatigue, intending, measure, distant paths."
+                "text": "幽 寻 不知 疲，意行 度 遥陌。",
+                "translation": "Solitude, seek, not know, fatigue; Thoughts of the heart, cross(v.), remote, path"
             },
             {
                 "pinyin": "xī yóu suǒ wèi jīng, shù zhé dì yù pì.",
                 "text": "昔游 所 未经，数折 地 愈 僻。",
-                "translation": "Past travels, places, never been, numerous turns, land, increasingly, secluded."
+                "translation": "Past trip, aux., never experience; several turns, land, more desolate"
             },
             {
                 "pinyin": "hū zhì yě shuǐ àn, lù duàn xíng jì jué.",
                 "text": "忽至 野水 岸，路断 行迹 绝。",
-                "translation": "Suddenly arrive, wilderness waters, bank, path ends, tracks, vanish."
+                "translation": "Suddenly  arrive, wild water,bank; Paths, end (v.), tracks, vanish"
             },
             {
                 "pinyin": "yù wèn kōng wú rén, yī lù cǎo biān bái.",
-                "text": "欲问 空 无人，一鹭 草边 白。",
-                "translation": "Wish to ask, empty, no one, a egret, grass side, white."
+                "text": "欲 问 空 无 人，一 鹭 草 边 白。",
+                "translation": "wish, ask, empty, no, people; one, egret, grass edge, white"
             }
         ]
 
