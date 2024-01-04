@@ -230,7 +230,7 @@ with st.form("evaluation_form"):
         feedback_data = {
         "mother_tongue": mother_tounge if mother_tounge != "Other" else other_language,
         "email": email,
-        "ratings": [Version ["rating"] for poem in poems]
+        "ratings": [poem["rating"] for poem in poems]
         }
 
     # 插入数据到 MongoDB Atlas
