@@ -74,7 +74,7 @@ with st.container():
             {
                 "pinyin": "xī yóu suǒ wèi jīng, shù zhé dì yù pì.",
                 "text": "昔游 所 未经，数折 地 愈 僻。",
-                "translation": "Past trip, aux., never experience; several turns, land, more desolate"
+                "translation": "Past trip, aux., never experience; Several turns, land, more desolate"
             },
             {
                 "pinyin": "hū zhì yě shuǐ àn, lù duàn xíng jì jué.",
@@ -84,7 +84,7 @@ with st.container():
             {
                 "pinyin": "yù wèn kōng wú rén, yī lù cǎo biān bái.",
                 "text": "欲 问 空 无 人，一 鹭 草 边 白。",
-                "translation": "wish, ask, empty, no, people; one, egret, grass edge, white"
+                "translation": "wish, ask, empty, no, people; One, egret, grass edge, white"
             }
         ]
 
