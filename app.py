@@ -225,7 +225,7 @@ with st.form("evaluation_form"):
 
         st.write(f"Email: {email}")
         for i, poem in enumerate(poems):
-            st.write(f"Rating for Poem {i+1}: {poem['rating']} stars")
+            st.write(f"Rating for Version {i+1}: {poem['rating']} stars")
 
         feedback_data = {
         "mother_tongue": mother_tounge if mother_tounge != "Other" else other_language,
